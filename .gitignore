@@ -1,0 +1,61 @@
+
+# Oggetti binari e cartelle di build
+**/bin/*
+**/obj/*
+
+# File eseguibili specifici di Visual Studio
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.cache
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.aps
+*.ilk
+*.log
+*.lib
+*.sbr
+*.obj
+*.pid
+*.svd
+
+# Cartelle di pubblicazione
+/publish/*
+
+# File di cache di NuGet
+packages/*
+*.nupkg
+
+# Risultati di test
+TestResults/*
+*.fakesassembly
+
+# File temporanei di ReSharper
+_ReSharper*/
+
+# File temporanei di Visual Studio
+.vs/
+
+# File di configurazione specifici dell'utente
+*.userprefs
+
+# File di diagnostica
+*.diag
+
+# File di backup
+*.~
+*.bak
+*.swp
+
+# File di lock dei pacchetti (se applicabile)
+# package-lock.json (per progetti Node.js frontend)
+# yarn.lock (per progetti Node.js frontend)
+
+# File specifici del sistema operativo
+.DS_Store
+Thumbs.db
